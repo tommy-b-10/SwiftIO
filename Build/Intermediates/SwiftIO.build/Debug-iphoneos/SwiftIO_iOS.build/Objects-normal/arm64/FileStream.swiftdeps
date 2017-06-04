@@ -1,0 +1,779 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Mode"
+- "FileStream"
+provides-nominal:
+- "V7SwiftIO4Mode"
+- "C7SwiftIO10FileStream"
+provides-member:
+- ["V7SwiftIO4Mode", ""]
+- ["C7SwiftIO10FileStream", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Whence"
+- !private "tryElseFatalError"
+- "DispatchData"
+- !private "lseek"
+- "Int"
+- !private "O_APPEND"
+- "RandomAccessOutput"
+- !private "??"
+- !private "|="
+- "RandomAccessInput"
+- "BinaryInputStream"
+- !private "O_RDWR"
+- "Endianness"
+- "|"
+- "Int32"
+- !private "!="
+- !private "Darwin"
+- !private "errno"
+- !private "unimplementedFailure"
+- "Bool"
+- !private "preconditionFailure"
+- !private "Error"
+- !private "<"
+- "UnsafeBufferPointer"
+- "UInt8"
+- !private "&"
+- !private "Data"
+- "RandomAccess"
+- !private ">"
+- "BooleanLiteralType"
+- !private "<="
+- "URL"
+- !private "Errno"
+- !private "O_WRONLY"
+- !private "StringLiteralType"
+- "BinaryOutputStream"
+- "Mode"
+- !private "~="
+- "=="
+- "AssignmentPrecedence"
+- !private "O_CREAT"
+- "FileStream"
+- !private "off_t"
+- !private "UnsafeMutablePointer"
+- !private "O_RDONLY"
+- "FloatLiteralType"
+- "OptionSet"
+- "TernaryPrecedence"
+- "IntegerLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Darwin"]
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "DispatchData"]
+- ["Ps9AnyObject", "Endianness"]
+- !private ["Ps9AnyObject", "Errno"]
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "Mode"]
+- !private ["Ps9AnyObject", "O_APPEND"]
+- !private ["Ps9AnyObject", "O_CREAT"]
+- !private ["Ps9AnyObject", "Whence"]
+- !private ["Ps9AnyObject", "close"]
+- ["Ps9AnyObject", "endianness"]
+- !private ["Ps9AnyObject", "errno"]
+- !private ["Ps9AnyObject", "fd"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isOpen"]
+- !private ["Ps9AnyObject", "lseek"]
+- !private ["Ps9AnyObject", "off_t"]
+- ["Ps9AnyObject", "read"]
+- ["Ps9AnyObject", "readData"]
+- ["Ps9AnyObject", "seek"]
+- ["Ps9AnyObject", "tell"]
+- !private ["Ps9AnyObject", "tryElseFatalError"]
+- !private ["Ps9AnyObject", "unimplementedFailure"]
+- !private ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- !private ["P14SwiftUtilities13BaseDecodable", "count"]
+- !private ["P14SwiftUtilities13BaseDecodable", "init"]
+- !private ["P14SwiftUtilities13BaseDecodable", "withUnsafeMutableBytes"]
+- !private ["P14SwiftUtilities13BaseEncodable", "IndexDistance"]
+- !private ["P14SwiftUtilities13BaseEncodable", "baseAddress"]
+- !private ["P14SwiftUtilities13BaseEncodable", "count"]
+- !private ["P14SwiftUtilities13BaseEncodable", "init"]
+- !private ["P14SwiftUtilities13BaseEncodable", "withUnsafeMutableBytes"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "withUnsafeMutableBytes"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "baseAddress"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps22BidirectionalIndexable", "withUnsafeMutableBytes"]
+- !private ["P7SwiftIO15BinaryDecodable", "init"]
+- !private ["P7SwiftIO17BinaryInputStream", "Darwin"]
+- !private ["P7SwiftIO17BinaryInputStream", "Data"]
+- !private ["P7SwiftIO17BinaryInputStream", "DispatchData"]
+- ["P7SwiftIO17BinaryInputStream", "Endianness"]
+- !private ["P7SwiftIO17BinaryInputStream", "Errno"]
+- !private ["P7SwiftIO17BinaryInputStream", "Error"]
+- !private ["P7SwiftIO17BinaryInputStream", "Int"]
+- !private ["P7SwiftIO17BinaryInputStream", "Int32"]
+- !private ["P7SwiftIO17BinaryInputStream", "Mode"]
+- !private ["P7SwiftIO17BinaryInputStream", "O_APPEND"]
+- !private ["P7SwiftIO17BinaryInputStream", "O_CREAT"]
+- !private ["P7SwiftIO17BinaryInputStream", "Whence"]
+- !private ["P7SwiftIO17BinaryInputStream", "close"]
+- ["P7SwiftIO17BinaryInputStream", "endianness"]
+- !private ["P7SwiftIO17BinaryInputStream", "errno"]
+- !private ["P7SwiftIO17BinaryInputStream", "fd"]
+- !private ["P7SwiftIO17BinaryInputStream", "isOpen"]
+- !private ["P7SwiftIO17BinaryInputStream", "lseek"]
+- !private ["P7SwiftIO17BinaryInputStream", "off_t"]
+- ["P7SwiftIO17BinaryInputStream", "read"]
+- ["P7SwiftIO17BinaryInputStream", "readData"]
+- ["P7SwiftIO17BinaryInputStream", "seek"]
+- ["P7SwiftIO17BinaryInputStream", "tell"]
+- !private ["P7SwiftIO17BinaryInputStream", "tryElseFatalError"]
+- !private ["P7SwiftIO17BinaryInputStream", "unimplementedFailure"]
+- !private ["P7SwiftIO17BinaryInputStream", "url"]
+- ["P7SwiftIO17BinaryInputStream", "write"]
+- ["P7SwiftIO17BinaryInputStream", ""]
+- !private ["P7SwiftIO21BinaryInputStreamable", "init"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Darwin"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Data"]
+- !private ["P7SwiftIO18BinaryOutputStream", "DispatchData"]
+- ["P7SwiftIO18BinaryOutputStream", "Endianness"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Errno"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Error"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Int"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Int32"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Mode"]
+- !private ["P7SwiftIO18BinaryOutputStream", "O_APPEND"]
+- !private ["P7SwiftIO18BinaryOutputStream", "O_CREAT"]
+- !private ["P7SwiftIO18BinaryOutputStream", "Whence"]
+- !private ["P7SwiftIO18BinaryOutputStream", "close"]
+- ["P7SwiftIO18BinaryOutputStream", "endianness"]
+- !private ["P7SwiftIO18BinaryOutputStream", "errno"]
+- !private ["P7SwiftIO18BinaryOutputStream", "fd"]
+- !private ["P7SwiftIO18BinaryOutputStream", "isOpen"]
+- !private ["P7SwiftIO18BinaryOutputStream", "lseek"]
+- !private ["P7SwiftIO18BinaryOutputStream", "off_t"]
+- ["P7SwiftIO18BinaryOutputStream", "read"]
+- ["P7SwiftIO18BinaryOutputStream", "readData"]
+- ["P7SwiftIO18BinaryOutputStream", "seek"]
+- ["P7SwiftIO18BinaryOutputStream", "tell"]
+- !private ["P7SwiftIO18BinaryOutputStream", "tryElseFatalError"]
+- !private ["P7SwiftIO18BinaryOutputStream", "unimplementedFailure"]
+- !private ["P7SwiftIO18BinaryOutputStream", "url"]
+- ["P7SwiftIO18BinaryOutputStream", "write"]
+- ["P7SwiftIO18BinaryOutputStream", ""]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "count"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "init"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "withUnsafeMutableBytes"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "withUnsafeMutableBytes"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutableBytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "path"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "withUnsafeMutableBytes"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "generic"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "unknown"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutableBytes"]
+- !private ["V10Foundation4Data", "count"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["V10Foundation4Data", "withUnsafeMutableBytes"]
+- ["V8Dispatch12DispatchData", "deinit"]
+- !private ["V8Dispatch12DispatchData", "init"]
+- !private ["P14SwiftUtilities17EndianConvertable", "init"]
+- ["O14SwiftUtilities10Endianness", "Native"]
+- ["O14SwiftUtilities10Endianness", "deinit"]
+- ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Mode"]
+- ["Ps9Equatable", "Native"]
+- !private ["Ps9Equatable", "O_RDONLY"]
+- !private ["Ps9Equatable", "O_RDWR"]
+- !private ["Ps9Equatable", "O_WRONLY"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "current"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "oflags"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "preconditionFailure"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "read"]
+- ["Ps9Equatable", "readWrite"]
+- ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "set"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "withUnsafeMutableBytes"]
+- ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["O14SwiftUtilities5Errno", "init"]
+- ["O14SwiftUtilities5Error", "deinit"]
+- !private ["O14SwiftUtilities5Error", "generic"]
+- !private ["O14SwiftUtilities5Error", "unknown"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "generic"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps5Error", "unknown"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "Mode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "O_RDONLY"]
+- !private ["Ps25ExpressibleByArrayLiteral", "O_RDWR"]
+- !private ["Ps25ExpressibleByArrayLiteral", "O_WRONLY"]
+- ["Ps25ExpressibleByArrayLiteral", "RawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- !private ["Ps25ExpressibleByArrayLiteral", "oflags"]
+- !private ["Ps25ExpressibleByArrayLiteral", "preconditionFailure"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "read"]
+- ["Ps25ExpressibleByArrayLiteral", "readWrite"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", "write"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C7SwiftIO10FileStream", "Bool"]
+- !private ["C7SwiftIO10FileStream", "Darwin"]
+- !private ["C7SwiftIO10FileStream", "Data"]
+- ["C7SwiftIO10FileStream", "DispatchData"]
+- ["C7SwiftIO10FileStream", "Endianness"]
+- !private ["C7SwiftIO10FileStream", "Errno"]
+- !private ["C7SwiftIO10FileStream", "Error"]
+- ["C7SwiftIO10FileStream", "Int"]
+- ["C7SwiftIO10FileStream", "Int32"]
+- ["C7SwiftIO10FileStream", "Mode"]
+- !private ["C7SwiftIO10FileStream", "O_APPEND"]
+- !private ["C7SwiftIO10FileStream", "O_CREAT"]
+- ["C7SwiftIO10FileStream", "UInt8"]
+- ["C7SwiftIO10FileStream", "URL"]
+- ["C7SwiftIO10FileStream", "UnsafeBufferPointer"]
+- !private ["C7SwiftIO10FileStream", "UnsafeMutablePointer"]
+- ["C7SwiftIO10FileStream", "Whence"]
+- ["C7SwiftIO10FileStream", "close"]
+- ["C7SwiftIO10FileStream", "deinit"]
+- ["C7SwiftIO10FileStream", "endianness"]
+- !private ["C7SwiftIO10FileStream", "errno"]
+- ["C7SwiftIO10FileStream", "fd"]
+- ["C7SwiftIO10FileStream", "init"]
+- ["C7SwiftIO10FileStream", "isOpen"]
+- !private ["C7SwiftIO10FileStream", "lseek"]
+- !private ["C7SwiftIO10FileStream", "off_t"]
+- ["C7SwiftIO10FileStream", "open"]
+- ["C7SwiftIO10FileStream", "read"]
+- ["C7SwiftIO10FileStream", "readData"]
+- ["C7SwiftIO10FileStream", "seek"]
+- ["C7SwiftIO10FileStream", "tell"]
+- !private ["C7SwiftIO10FileStream", "tryElseFatalError"]
+- !private ["C7SwiftIO10FileStream", "unimplementedFailure"]
+- ["C7SwiftIO10FileStream", "url"]
+- ["C7SwiftIO10FileStream", "write"]
+- ["Ps8Hashable", "Native"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "withUnsafeMutableBytes"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "baseAddress"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "withUnsafeMutableBytes"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "baseAddress"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "withUnsafeMutableBytes"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "init"]
+- ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["V7SwiftIO4Mode", "Element"]
+- ["V7SwiftIO4Mode", "Int"]
+- ["V7SwiftIO4Mode", "Int32"]
+- ["V7SwiftIO4Mode", "Mode"]
+- !private ["V7SwiftIO4Mode", "O_RDONLY"]
+- !private ["V7SwiftIO4Mode", "O_RDWR"]
+- !private ["V7SwiftIO4Mode", "O_WRONLY"]
+- ["V7SwiftIO4Mode", "RawValue"]
+- ["V7SwiftIO4Mode", "contains"]
+- ["V7SwiftIO4Mode", "deinit"]
+- ["V7SwiftIO4Mode", "formIntersection"]
+- ["V7SwiftIO4Mode", "formSymmetricDifference"]
+- ["V7SwiftIO4Mode", "formUnion"]
+- ["V7SwiftIO4Mode", "init"]
+- ["V7SwiftIO4Mode", "insert"]
+- ["V7SwiftIO4Mode", "intersection"]
+- ["V7SwiftIO4Mode", "isDisjoint"]
+- ["V7SwiftIO4Mode", "isEmpty"]
+- ["V7SwiftIO4Mode", "isSubset"]
+- ["V7SwiftIO4Mode", "isSuperset"]
+- ["V7SwiftIO4Mode", "oflags"]
+- !private ["V7SwiftIO4Mode", "preconditionFailure"]
+- ["V7SwiftIO4Mode", "rawValue"]
+- ["V7SwiftIO4Mode", "read"]
+- ["V7SwiftIO4Mode", "readWrite"]
+- ["V7SwiftIO4Mode", "remove"]
+- ["V7SwiftIO4Mode", "subtract"]
+- ["V7SwiftIO4Mode", "subtracting"]
+- ["V7SwiftIO4Mode", "symmetricDifference"]
+- ["V7SwiftIO4Mode", "union"]
+- ["V7SwiftIO4Mode", "update"]
+- ["V7SwiftIO4Mode", "write"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "withUnsafeMutableBytes"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "withUnsafeMutableBytes"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Ps9OptionSet", "Element"]
+- ["Ps9OptionSet", "Mode"]
+- !private ["Ps9OptionSet", "O_RDONLY"]
+- !private ["Ps9OptionSet", "O_RDWR"]
+- !private ["Ps9OptionSet", "O_WRONLY"]
+- ["Ps9OptionSet", "RawValue"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- !private ["Ps9OptionSet", "oflags"]
+- !private ["Ps9OptionSet", "preconditionFailure"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "read"]
+- ["Ps9OptionSet", "readWrite"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", "write"]
+- ["Ps9OptionSet", ""]
+- ["Sq", "deinit"]
+- !private ["P7SwiftIO12RandomAccess", "Darwin"]
+- !private ["P7SwiftIO12RandomAccess", "Data"]
+- !private ["P7SwiftIO12RandomAccess", "DispatchData"]
+- ["P7SwiftIO12RandomAccess", "Endianness"]
+- !private ["P7SwiftIO12RandomAccess", "Errno"]
+- !private ["P7SwiftIO12RandomAccess", "Error"]
+- !private ["P7SwiftIO12RandomAccess", "Int"]
+- !private ["P7SwiftIO12RandomAccess", "Int32"]
+- !private ["P7SwiftIO12RandomAccess", "Mode"]
+- !private ["P7SwiftIO12RandomAccess", "O_APPEND"]
+- !private ["P7SwiftIO12RandomAccess", "O_CREAT"]
+- !private ["P7SwiftIO12RandomAccess", "Whence"]
+- !private ["P7SwiftIO12RandomAccess", "close"]
+- ["P7SwiftIO12RandomAccess", "endianness"]
+- !private ["P7SwiftIO12RandomAccess", "errno"]
+- !private ["P7SwiftIO12RandomAccess", "fd"]
+- !private ["P7SwiftIO12RandomAccess", "isOpen"]
+- !private ["P7SwiftIO12RandomAccess", "lseek"]
+- !private ["P7SwiftIO12RandomAccess", "off_t"]
+- ["P7SwiftIO12RandomAccess", "read"]
+- ["P7SwiftIO12RandomAccess", "readData"]
+- ["P7SwiftIO12RandomAccess", "seek"]
+- ["P7SwiftIO12RandomAccess", "tell"]
+- !private ["P7SwiftIO12RandomAccess", "tryElseFatalError"]
+- !private ["P7SwiftIO12RandomAccess", "unimplementedFailure"]
+- !private ["P7SwiftIO12RandomAccess", "url"]
+- ["P7SwiftIO12RandomAccess", "write"]
+- ["P7SwiftIO12RandomAccess", ""]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "withUnsafeMutableBytes"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "baseAddress"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps21RandomAccessIndexable", "withUnsafeMutableBytes"]
+- !private ["P7SwiftIO17RandomAccessInput", "Darwin"]
+- !private ["P7SwiftIO17RandomAccessInput", "Data"]
+- !private ["P7SwiftIO17RandomAccessInput", "DispatchData"]
+- ["P7SwiftIO17RandomAccessInput", "Endianness"]
+- !private ["P7SwiftIO17RandomAccessInput", "Errno"]
+- !private ["P7SwiftIO17RandomAccessInput", "Error"]
+- !private ["P7SwiftIO17RandomAccessInput", "Int"]
+- !private ["P7SwiftIO17RandomAccessInput", "Int32"]
+- !private ["P7SwiftIO17RandomAccessInput", "Mode"]
+- !private ["P7SwiftIO17RandomAccessInput", "O_APPEND"]
+- !private ["P7SwiftIO17RandomAccessInput", "O_CREAT"]
+- !private ["P7SwiftIO17RandomAccessInput", "Whence"]
+- !private ["P7SwiftIO17RandomAccessInput", "close"]
+- ["P7SwiftIO17RandomAccessInput", "endianness"]
+- !private ["P7SwiftIO17RandomAccessInput", "errno"]
+- !private ["P7SwiftIO17RandomAccessInput", "fd"]
+- !private ["P7SwiftIO17RandomAccessInput", "isOpen"]
+- !private ["P7SwiftIO17RandomAccessInput", "lseek"]
+- !private ["P7SwiftIO17RandomAccessInput", "off_t"]
+- ["P7SwiftIO17RandomAccessInput", "read"]
+- ["P7SwiftIO17RandomAccessInput", "readData"]
+- ["P7SwiftIO17RandomAccessInput", "seek"]
+- ["P7SwiftIO17RandomAccessInput", "tell"]
+- !private ["P7SwiftIO17RandomAccessInput", "tryElseFatalError"]
+- !private ["P7SwiftIO17RandomAccessInput", "unimplementedFailure"]
+- !private ["P7SwiftIO17RandomAccessInput", "url"]
+- ["P7SwiftIO17RandomAccessInput", "write"]
+- ["P7SwiftIO17RandomAccessInput", ""]
+- !private ["P7SwiftIO18RandomAccessOutput", "Darwin"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Data"]
+- !private ["P7SwiftIO18RandomAccessOutput", "DispatchData"]
+- ["P7SwiftIO18RandomAccessOutput", "Endianness"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Errno"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Error"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Int"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Int32"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Mode"]
+- !private ["P7SwiftIO18RandomAccessOutput", "O_APPEND"]
+- !private ["P7SwiftIO18RandomAccessOutput", "O_CREAT"]
+- !private ["P7SwiftIO18RandomAccessOutput", "Whence"]
+- !private ["P7SwiftIO18RandomAccessOutput", "close"]
+- ["P7SwiftIO18RandomAccessOutput", "endianness"]
+- !private ["P7SwiftIO18RandomAccessOutput", "errno"]
+- !private ["P7SwiftIO18RandomAccessOutput", "fd"]
+- !private ["P7SwiftIO18RandomAccessOutput", "isOpen"]
+- !private ["P7SwiftIO18RandomAccessOutput", "lseek"]
+- !private ["P7SwiftIO18RandomAccessOutput", "off_t"]
+- ["P7SwiftIO18RandomAccessOutput", "read"]
+- ["P7SwiftIO18RandomAccessOutput", "readData"]
+- ["P7SwiftIO18RandomAccessOutput", "seek"]
+- ["P7SwiftIO18RandomAccessOutput", "tell"]
+- !private ["P7SwiftIO18RandomAccessOutput", "tryElseFatalError"]
+- !private ["P7SwiftIO18RandomAccessOutput", "unimplementedFailure"]
+- !private ["P7SwiftIO18RandomAccessOutput", "url"]
+- ["P7SwiftIO18RandomAccessOutput", "write"]
+- ["P7SwiftIO18RandomAccessOutput", ""]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "withUnsafeMutableBytes"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "withUnsafeMutableBytes"]
+- ["Ps16RawRepresentable", "Element"]
+- ["Ps16RawRepresentable", "Mode"]
+- !private ["Ps16RawRepresentable", "O_RDONLY"]
+- !private ["Ps16RawRepresentable", "O_RDWR"]
+- !private ["Ps16RawRepresentable", "O_WRONLY"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "contains"]
+- !private ["Ps16RawRepresentable", "current"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- !private ["Ps16RawRepresentable", "oflags"]
+- !private ["Ps16RawRepresentable", "preconditionFailure"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "read"]
+- ["Ps16RawRepresentable", "readWrite"]
+- ["Ps16RawRepresentable", "remove"]
+- !private ["Ps16RawRepresentable", "set"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", "write"]
+- ["Ps16RawRepresentable", ""]
+- !private ["P10Foundation20ReferenceConvertible", "count"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "path"]
+- !private ["P10Foundation20ReferenceConvertible", "withUnsafeMutableBytes"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "withUnsafeMutableBytes"]
+- ["Ps10SetAlgebra", "Element"]
+- ["Ps10SetAlgebra", "Mode"]
+- !private ["Ps10SetAlgebra", "O_RDONLY"]
+- !private ["Ps10SetAlgebra", "O_RDWR"]
+- !private ["Ps10SetAlgebra", "O_WRONLY"]
+- ["Ps10SetAlgebra", "RawValue"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- !private ["Ps10SetAlgebra", "oflags"]
+- !private ["Ps10SetAlgebra", "preconditionFailure"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "read"]
+- ["Ps10SetAlgebra", "readWrite"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", "write"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "path"]
+- !private ["SR", "IndexDistance"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- ["SR", "deinit"]
+- !private ["Sp", "deinit"]
+- !private ["O7SwiftIO6Whence", "current"]
+- ["O7SwiftIO6Whence", "deinit"]
+- !private ["O7SwiftIO6Whence", "rawValue"]
+- !private ["O7SwiftIO6Whence", "set"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "path"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Native"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "withUnsafeMutableBytes"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation18_MutablePairBoxing", "count"]
+- !private ["P10Foundation18_MutablePairBoxing", "init"]
+- !private ["P10Foundation18_MutablePairBoxing", "withUnsafeMutableBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "path"]
+- !private ["Ps21_ObjectiveCBridgeable", "withUnsafeMutableBytes"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P14SwiftUtilities13BaseDecodable"
+- !private "P14SwiftUtilities13BaseEncodable"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P7SwiftIO15BinaryDecodable"
+- "P7SwiftIO17BinaryInputStream"
+- !private "P7SwiftIO21BinaryInputStreamable"
+- "P7SwiftIO18BinaryOutputStream"
+- !private "P7SwiftIO22BinaryOutputStreamable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "V8Dispatch12DispatchData"
+- !private "P14SwiftUtilities17EndianConvertable"
+- "O14SwiftUtilities10Endianness"
+- "Ps9Equatable"
+- !private "O14SwiftUtilities5Errno"
+- "O14SwiftUtilities5Error"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C7SwiftIO10FileStream"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "Vs5Int32"
+- "Vs5Int64"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "V7SwiftIO4Mode"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Ps9OptionSet"
+- "Sq"
+- "P7SwiftIO12RandomAccess"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- "P7SwiftIO17RandomAccessInput"
+- "P7SwiftIO18RandomAccessOutput"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "V10Foundation3URL"
+- "SR"
+- !private "Sp"
+- "O7SwiftIO6Whence"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "112c4335ffcd727297a487cf372168e6"

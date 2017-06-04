@@ -1,0 +1,14 @@
+language: objective-c
+osx_image: xcode8.1
+before_script:
+- carthage bootstrap --no-use-binaries
+script:
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphoneos -configuration Debug build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphoneos -configuration Release build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphonesimulator -configuration Debug build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphonesimulator -configuration Release build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_OSX' -sdk macosx -configuration Debug build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_OSX' -sdk macosx -configuration Release build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'TestApp' -sdk macosx -configuration Debug build
+- xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'TestApp' -sdk macosx -configuration Release build
+

@@ -1,0 +1,108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NullStream"
+provides-nominal:
+- "C7SwiftIO10NullStream"
+provides-member:
+- ["C7SwiftIO10NullStream", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Endianness"
+- "NullStream"
+- !private "+="
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "UInt8"
+- "Int"
+- "UnsafeBufferPointer"
+- "BinaryOutputStream"
+depends-member:
+- ["Ps9AnyObject", "Endianness"]
+- ["Ps9AnyObject", "endianness"]
+- !private ["Ps9AnyObject", "length"]
+- ["Ps9AnyObject", "write"]
+- !private ["Ps9AnyObject", "writeCount"]
+- ["Ps9AnyObject", ""]
+- !private ["P14SwiftUtilities13BaseEncodable", "IndexDistance"]
+- !private ["P14SwiftUtilities13BaseEncodable", "count"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- ["P7SwiftIO18BinaryOutputStream", "Endianness"]
+- ["P7SwiftIO18BinaryOutputStream", "endianness"]
+- !private ["P7SwiftIO18BinaryOutputStream", "length"]
+- ["P7SwiftIO18BinaryOutputStream", "write"]
+- !private ["P7SwiftIO18BinaryOutputStream", "writeCount"]
+- ["P7SwiftIO18BinaryOutputStream", ""]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["O14SwiftUtilities10Endianness", "Native"]
+- ["O14SwiftUtilities10Endianness", "deinit"]
+- ["Ps9Equatable", "Native"]
+- ["Ps8Hashable", "Native"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Si", "deinit"]
+- ["C7SwiftIO10NullStream", "Endianness"]
+- ["C7SwiftIO10NullStream", "Int"]
+- ["C7SwiftIO10NullStream", "UInt8"]
+- ["C7SwiftIO10NullStream", "UnsafeBufferPointer"]
+- ["C7SwiftIO10NullStream", "deinit"]
+- ["C7SwiftIO10NullStream", "endianness"]
+- ["C7SwiftIO10NullStream", "init"]
+- ["C7SwiftIO10NullStream", "length"]
+- ["C7SwiftIO10NullStream", "write"]
+- ["C7SwiftIO10NullStream", "writeCount"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "count"]
+- !private ["SR", "IndexDistance"]
+- !private ["SR", "count"]
+- ["SR", "deinit"]
+- ["Ps9_Hashable", "Native"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P14SwiftUtilities13BaseEncodable"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "P7SwiftIO18BinaryOutputStream"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- "O14SwiftUtilities10Endianness"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "C7SwiftIO10NullStream"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps8Sequence"
+- "SR"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "0a546809fcfe9848cfef29bbd2c5d218"

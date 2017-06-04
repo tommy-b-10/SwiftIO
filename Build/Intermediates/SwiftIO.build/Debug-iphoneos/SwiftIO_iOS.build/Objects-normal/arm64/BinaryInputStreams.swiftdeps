@@ -1,0 +1,50 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BinaryInputStream"
+- "BinaryInputStreamable"
+provides-nominal:
+- "P7SwiftIO17BinaryInputStream"
+- "P7SwiftIO21BinaryInputStreamable"
+provides-member:
+- ["P7SwiftIO17BinaryInputStream", ""]
+- ["P7SwiftIO21BinaryInputStreamable", ""]
+- ["P7SwiftIO17BinaryInputStream", "read"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BinaryInputStream"
+- "BinaryInputStreamable"
+- "Int"
+- "Endianness"
+- "DispatchData"
+depends-member:
+- ["P7SwiftIO17BinaryInputStream", "BinaryInputStreamable"]
+- ["P7SwiftIO17BinaryInputStream", "DispatchData"]
+- ["P7SwiftIO17BinaryInputStream", "Endianness"]
+- ["P7SwiftIO17BinaryInputStream", "Int"]
+- ["P7SwiftIO17BinaryInputStream", "endianness"]
+- ["P7SwiftIO17BinaryInputStream", "read"]
+- ["P7SwiftIO17BinaryInputStream", "readData"]
+- ["P7SwiftIO17BinaryInputStream", ""]
+- ["P7SwiftIO21BinaryInputStreamable", "BinaryInputStream"]
+- ["P7SwiftIO21BinaryInputStreamable", "readFrom"]
+depends-nominal:
+- "P7SwiftIO17BinaryInputStream"
+- "P7SwiftIO21BinaryInputStreamable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "89ee35d6fd141cdb83f2c966d9ac5083"

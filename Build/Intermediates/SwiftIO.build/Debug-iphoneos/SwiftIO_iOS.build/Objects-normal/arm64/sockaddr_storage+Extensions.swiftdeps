@@ -1,0 +1,502 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VSC16sockaddr_storage"
+provides-member:
+- ["VSC16sockaddr_storage", ""]
+- ["VSC11sockaddr_in", ""]
+- ["VSC12sockaddr_in6", ""]
+- ["VSC16sockaddr_storage", "init"]
+- ["VSC16sockaddr_storage", "init"]
+- ["VSC16sockaddr_storage", "init"]
+- ["VSC16sockaddr_storage", "init"]
+- ["VSC16sockaddr_storage", "init"]
+- ["VSC11sockaddr_in", "init"]
+- ["VSC12sockaddr_in6", "init"]
+- ["VSC16sockaddr_storage", "withSockaddr"]
+- ["VSC16sockaddr_storage", "withMutableSockaddr"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CChar"
+- !private "Array"
+- !private ">="
+- !private "__uint8_t"
+- !private "inet_ntop"
+- "UnsafeMutablePointer"
+- !private "in_port_t"
+- "Int"
+- !private "&&"
+- !private "AF_INET6"
+- !private "withUnsafePointer"
+- !private "fatalError"
+- !private "StringLiteralType"
+- "in_addr"
+- "sockaddr"
+- "in6_addr"
+- "UnicodeScalarType"
+- "sockaddr_in6"
+- !private "preconditionFailure"
+- !private "~="
+- "AssignmentPrecedence"
+- !private "=="
+- !private "precondition"
+- "sockaddr_in"
+- "String"
+- !private "sa_family_t"
+- !private "MemoryLayout"
+- "UInt16"
+- !private "AF_INET"
+- !private "||"
+- "sockaddr_storage"
+- !private "INET6_ADDRSTRLEN"
+- !private "Int32"
+- "CustomStringConvertible"
+- !private "withUnsafeMutablePointer"
+- !private "FloatLiteralType"
+- !private "unsafeCopy"
+- "UnsafePointer"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "withUnsafeMutableBufferPointer"]
+- !private ["P14SwiftUtilities13BaseDecodable", "init"]
+- !private ["P14SwiftUtilities13BaseDecodable", "networkEndian"]
+- !private ["P14SwiftUtilities13BaseEncodable", "init"]
+- !private ["P14SwiftUtilities13BaseEncodable", "networkEndian"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps22BidirectionalIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["P7SwiftIO15BinaryDecodable", "init"]
+- !private ["P7SwiftIO15BinaryDecodable", "networkEndian"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "init"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "networkEndian"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "init"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "networkEndian"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps17BitwiseOperations", "networkEndian"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "networkEndian"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps7CVarArg", "withMemoryRebound"]
+- !private ["Ps7CVarArg", "withUnsafeMutableBufferPointer"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "networkEndian"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "withMemoryRebound"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "withMemoryRebound"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutableBufferPointer"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "networkEndian"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "withMemoryRebound"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "networkEndian"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "withMemoryRebound"]
+- !private ["Ps17CustomReflectable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps23CustomStringConvertible", "AF_INET"]
+- !private ["Ps23CustomStringConvertible", "AF_INET6"]
+- !private ["Ps23CustomStringConvertible", "Array"]
+- !private ["Ps23CustomStringConvertible", "INET6_ADDRSTRLEN"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Int32"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "MemoryLayout"]
+- !private ["Ps23CustomStringConvertible", "UInt16"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "__uint8_t"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "in_port_t"]
+- !private ["Ps23CustomStringConvertible", "inet_ntop"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "networkEndian"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "preconditionFailure"]
+- !private ["Ps23CustomStringConvertible", "sa_family_t"]
+- !private ["Ps23CustomStringConvertible", "sockaddr"]
+- !private ["Ps23CustomStringConvertible", "sockaddr_in"]
+- !private ["Ps23CustomStringConvertible", "sockaddr_in6"]
+- !private ["Ps23CustomStringConvertible", "sockaddr_storage"]
+- !private ["Ps23CustomStringConvertible", "ss_family"]
+- !private ["Ps23CustomStringConvertible", "ss_len"]
+- !private ["Ps23CustomStringConvertible", "unsafeCopy"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutableBufferPointer"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "withUnsafePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["P14SwiftUtilities17EndianConvertable", "init"]
+- !private ["P14SwiftUtilities17EndianConvertable", "networkEndian"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "networkEndian"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "withMemoryRebound"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "withUnsafeMutableBufferPointer"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "networkEndian"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "networkEndian"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "withMemoryRebound"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "withUnsafeMutableBufferPointer"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "init"]
+- !private ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps7Integer", "networkEndian"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "networkEndian"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps21RandomAccessIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "withUnsafeMutableBufferPointer"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "networkEndian"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["Ps10Strideable", "withMemoryRebound"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt16", "init"]
+- !private ["Vs6UInt16", "networkEndian"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Vs5UInt8", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Sp", "deinit"]
+- !private ["Sp", "withMemoryRebound"]
+- ["SP", "deinit"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps15UnsignedInteger", "networkEndian"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "withUnsafeMutableBufferPointer"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "withUnsafeMutableBufferPointer"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "networkEndian"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "networkEndian"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "networkEndian"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "withMemoryRebound"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "networkEndian"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps8_Integer", "networkEndian"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "networkEndian"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "networkEndian"]
+- !private ["Ps21_ObjectiveCBridgeable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps8_Pointer", "withMemoryRebound"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "networkEndian"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["Ps11_Strideable", "withMemoryRebound"]
+- !private ["Ps14_StringElement", "init"]
+- !private ["Ps14_StringElement", "networkEndian"]
+- ["VSC8in6_addr", "deinit"]
+- ["VSC7in_addr", "deinit"]
+- ["VSC8sockaddr", "deinit"]
+- !private ["VSC8sockaddr", "sa_family"]
+- !private ["VSC11sockaddr_in", "AF_INET"]
+- !private ["VSC11sockaddr_in", "MemoryLayout"]
+- !private ["VSC11sockaddr_in", "__uint8_t"]
+- ["VSC11sockaddr_in", "deinit"]
+- ["VSC11sockaddr_in", "init"]
+- !private ["VSC11sockaddr_in", "precondition"]
+- !private ["VSC11sockaddr_in", "sa_family_t"]
+- !private ["VSC11sockaddr_in", "sin_addr"]
+- !private ["VSC11sockaddr_in", "sin_family"]
+- !private ["VSC11sockaddr_in", "sin_len"]
+- !private ["VSC11sockaddr_in", "sin_port"]
+- !private ["VSC11sockaddr_in", "sockaddr_in"]
+- ["VSC11sockaddr_in", "sockaddr_storage"]
+- !private ["VSC11sockaddr_in", "unsafeCopy"]
+- !private ["VSC12sockaddr_in6", "AF_INET6"]
+- !private ["VSC12sockaddr_in6", "MemoryLayout"]
+- !private ["VSC12sockaddr_in6", "__uint8_t"]
+- ["VSC12sockaddr_in6", "deinit"]
+- ["VSC12sockaddr_in6", "init"]
+- !private ["VSC12sockaddr_in6", "precondition"]
+- !private ["VSC12sockaddr_in6", "sa_family_t"]
+- !private ["VSC12sockaddr_in6", "sin6_addr"]
+- !private ["VSC12sockaddr_in6", "sin6_family"]
+- !private ["VSC12sockaddr_in6", "sin6_len"]
+- !private ["VSC12sockaddr_in6", "sin6_port"]
+- !private ["VSC12sockaddr_in6", "sockaddr_in6"]
+- ["VSC12sockaddr_in6", "sockaddr_storage"]
+- !private ["VSC12sockaddr_in6", "unsafeCopy"]
+- !private ["VSC16sockaddr_storage", "AF_INET"]
+- !private ["VSC16sockaddr_storage", "AF_INET6"]
+- !private ["VSC16sockaddr_storage", "Array"]
+- !private ["VSC16sockaddr_storage", "CChar"]
+- !private ["VSC16sockaddr_storage", "INET6_ADDRSTRLEN"]
+- ["VSC16sockaddr_storage", "Int"]
+- !private ["VSC16sockaddr_storage", "Int32"]
+- !private ["VSC16sockaddr_storage", "MemoryLayout"]
+- ["VSC16sockaddr_storage", "String"]
+- ["VSC16sockaddr_storage", "UInt16"]
+- ["VSC16sockaddr_storage", "UnsafeMutablePointer"]
+- ["VSC16sockaddr_storage", "UnsafePointer"]
+- !private ["VSC16sockaddr_storage", "__uint8_t"]
+- ["VSC16sockaddr_storage", "deinit"]
+- ["VSC16sockaddr_storage", "description"]
+- !private ["VSC16sockaddr_storage", "fatalError"]
+- ["VSC16sockaddr_storage", "in6_addr"]
+- ["VSC16sockaddr_storage", "in_addr"]
+- !private ["VSC16sockaddr_storage", "in_port_t"]
+- !private ["VSC16sockaddr_storage", "inet_ntop"]
+- ["VSC16sockaddr_storage", "init"]
+- !private ["VSC16sockaddr_storage", "precondition"]
+- !private ["VSC16sockaddr_storage", "preconditionFailure"]
+- !private ["VSC16sockaddr_storage", "sa_family_t"]
+- ["VSC16sockaddr_storage", "sockaddr"]
+- ["VSC16sockaddr_storage", "sockaddr_in"]
+- ["VSC16sockaddr_storage", "sockaddr_in6"]
+- !private ["VSC16sockaddr_storage", "sockaddr_storage"]
+- !private ["VSC16sockaddr_storage", "ss_family"]
+- !private ["VSC16sockaddr_storage", "ss_len"]
+- !private ["VSC16sockaddr_storage", "unsafeCopy"]
+- ["VSC16sockaddr_storage", "withMutableSockaddr"]
+- ["VSC16sockaddr_storage", "withSockaddr"]
+- !private ["VSC16sockaddr_storage", "withUnsafeMutablePointer"]
+- !private ["VSC16sockaddr_storage", "withUnsafePointer"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "P14SwiftUtilities13BaseDecodable"
+- !private "P14SwiftUtilities13BaseEncodable"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P7SwiftIO15BinaryDecodable"
+- !private "P7SwiftIO21BinaryInputStreamable"
+- !private "P7SwiftIO22BinaryOutputStreamable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "P14SwiftUtilities17EndianConvertable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- "Vs5Int32"
+- !private "Vs5Int64"
+- "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- "Vs5UInt8"
+- !private "Sc"
+- !private "Sp"
+- "SP"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- "VSC8in6_addr"
+- "VSC7in_addr"
+- "VSC8sockaddr"
+- "VSC11sockaddr_in"
+- "VSC12sockaddr_in6"
+- "VSC16sockaddr_storage"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "07559e9502939dd18cde19a43ca1b586"

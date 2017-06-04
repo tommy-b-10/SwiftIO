@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectionState"
+- "Connectable"
+- "=="
+provides-nominal:
+- "O7SwiftIO15ConnectionState"
+- "P7SwiftIO11Connectable"
+provides-member:
+- ["O7SwiftIO15ConnectionState", ""]
+- ["P7SwiftIO11Connectable", ""]
+- ["P7SwiftIO11Connectable", "connected"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- "SwiftUtilities"
+- "Bool"
+- "Connectable"
+- "ConnectionState"
+- "=="
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["P7SwiftIO15BinaryDecodable", "hashValue"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "hashValue"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "hashValue"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["P7SwiftIO11Connectable", "Bool"]
+- ["P7SwiftIO11Connectable", "ConnectionState"]
+- ["P7SwiftIO11Connectable", "ConnectionStateType"]
+- ["P7SwiftIO11Connectable", "SwiftUtilities"]
+- ["P7SwiftIO11Connectable", "Void"]
+- ["P7SwiftIO11Connectable", "connect"]
+- ["P7SwiftIO11Connectable", "connected"]
+- ["P7SwiftIO11Connectable", "disconnect"]
+- ["P7SwiftIO11Connectable", "state"]
+- ["P7SwiftIO11Connectable", ""]
+- ["O7SwiftIO15ConnectionState", "=="]
+- ["O7SwiftIO15ConnectionState", "_toAnyHashable"]
+- ["O7SwiftIO15ConnectionState", "connected"]
+- ["O7SwiftIO15ConnectionState", "connecting"]
+- ["O7SwiftIO15ConnectionState", "deinit"]
+- ["O7SwiftIO15ConnectionState", "disconnected"]
+- ["O7SwiftIO15ConnectionState", "disconnecting"]
+- ["O7SwiftIO15ConnectionState", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "connected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "connected"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["P14SwiftUtilities17EndianConvertable", "hashValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "connected"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "connected"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "connected"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Sq", "connected"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "connected"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "connected"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "connected"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "P7SwiftIO15BinaryDecodable"
+- !private "P7SwiftIO21BinaryInputStreamable"
+- !private "P7SwiftIO22BinaryOutputStreamable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "P7SwiftIO11Connectable"
+- "O7SwiftIO15ConnectionState"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P14SwiftUtilities17EndianConvertable"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "855c451cb647ea0eac0604ead9557cee"

@@ -1,0 +1,21 @@
+machine:
+  xcode:
+    version: 8.3
+dependencies:
+  pre:
+    - brew tap schwa/punic
+    - brew install punic
+    - punic build
+compile:
+  override:
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphoneos -configuration Debug build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphoneos -configuration Release build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphonesimulator -configuration Debug build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_iOS' -sdk iphonesimulator -configuration Release build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_OSX' -sdk macosx -configuration Debug build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'SwiftIO_OSX' -sdk macosx -configuration Release build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'TestApp' -sdk macosx -configuration Debug build
+    - xcodebuild -project 'SwiftIO.xcodeproj' -scheme 'TestApp' -sdk macosx -configuration Release build
+test:
+  override:
+    - "true"

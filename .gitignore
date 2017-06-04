@@ -1,0 +1,34 @@
+#### Mac OS X Finder droppings
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#### Xcode Per User Files
+*.pbxuser
+*.perspectivev3
+xcuserdata/
+*.xcworkspace/xcshareddata/*.xccheckout
+*.xcworkspace/xcshareddata/*.xcscmblueprint
+*.xcodeproj/*.xcworkspace/xcshareddata/*.xccheckout
+*.xcodeproj/*.xcworkspace/xcshareddata/*.xcscmblueprint
+
+#### Python
+*.egg-info
+*.pyc
+*.pyo
+.idea
+
+#### Misc
+*.orig
+
+# Thumbnails
+._*
+
+### Swift Package Manager
+.build
+Packages
+
+### Carthage
+# Cartfile.resolved
+Carthage/Build
+Carthage/Checkouts

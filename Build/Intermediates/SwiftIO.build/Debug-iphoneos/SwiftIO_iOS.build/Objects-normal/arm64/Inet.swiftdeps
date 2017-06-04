@@ -1,0 +1,184 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InetProtocol"
+- "ProtocolFamily"
+- "=="
+- "=="
+provides-nominal:
+- "O7SwiftIO12InetProtocol"
+- "O7SwiftIO14ProtocolFamily"
+provides-member:
+- ["O7SwiftIO12InetProtocol", ""]
+- ["O7SwiftIO14ProtocolFamily", ""]
+- ["O7SwiftIO12InetProtocol", "init"]
+- ["O7SwiftIO12InetProtocol", "rawValue"]
+- ["O7SwiftIO14ProtocolFamily", "preferred"]
+- ["O7SwiftIO14ProtocolFamily", "init"]
+- ["O7SwiftIO14ProtocolFamily", "rawValue"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "PF_INET6"
+- "=="
+- !private "~="
+- !private "IPPROTO_TCP"
+- "AssignmentPrecedence"
+- "ProtocolFamily"
+- !private "IntegerLiteralType"
+- !private "IPPROTO_UDP"
+- "InetProtocol"
+- !private "FloatLiteralType"
+- !private "PF_INET"
+- "Int32"
+depends-member:
+- !private ["P7SwiftIO15BinaryDecodable", "hashValue"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "hashValue"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "hashValue"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["P14SwiftUtilities17EndianConvertable", "hashValue"]
+- !private ["Ps9Equatable", "IPPROTO_TCP"]
+- !private ["Ps9Equatable", "IPPROTO_UDP"]
+- !private ["Ps9Equatable", "PF_INET"]
+- !private ["Ps9Equatable", "PF_INET6"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "inet"]
+- ["Ps9Equatable", "inet6"]
+- ["Ps9Equatable", "tcp"]
+- ["Ps9Equatable", "udp"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "IPPROTO_TCP"]
+- !private ["Ps8Hashable", "IPPROTO_UDP"]
+- !private ["Ps8Hashable", "PF_INET"]
+- !private ["Ps8Hashable", "PF_INET6"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "inet"]
+- ["Ps8Hashable", "inet6"]
+- ["Ps8Hashable", "tcp"]
+- ["Ps8Hashable", "udp"]
+- ["Ps8Hashable", ""]
+- ["O7SwiftIO12InetProtocol", "=="]
+- !private ["O7SwiftIO12InetProtocol", "IPPROTO_TCP"]
+- !private ["O7SwiftIO12InetProtocol", "IPPROTO_UDP"]
+- ["O7SwiftIO12InetProtocol", "Int32"]
+- ["O7SwiftIO12InetProtocol", "_toAnyHashable"]
+- ["O7SwiftIO12InetProtocol", "deinit"]
+- ["O7SwiftIO12InetProtocol", "hashValue"]
+- ["O7SwiftIO12InetProtocol", "init"]
+- ["O7SwiftIO12InetProtocol", "rawValue"]
+- ["O7SwiftIO12InetProtocol", "tcp"]
+- ["O7SwiftIO12InetProtocol", "udp"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Sq", "deinit"]
+- ["O7SwiftIO14ProtocolFamily", "=="]
+- ["O7SwiftIO14ProtocolFamily", "Int32"]
+- !private ["O7SwiftIO14ProtocolFamily", "PF_INET"]
+- !private ["O7SwiftIO14ProtocolFamily", "PF_INET6"]
+- ["O7SwiftIO14ProtocolFamily", "ProtocolFamily"]
+- ["O7SwiftIO14ProtocolFamily", "_toAnyHashable"]
+- ["O7SwiftIO14ProtocolFamily", "deinit"]
+- ["O7SwiftIO14ProtocolFamily", "hashValue"]
+- ["O7SwiftIO14ProtocolFamily", "inet"]
+- ["O7SwiftIO14ProtocolFamily", "inet6"]
+- ["O7SwiftIO14ProtocolFamily", "init"]
+- ["O7SwiftIO14ProtocolFamily", "preferred"]
+- ["O7SwiftIO14ProtocolFamily", "rawValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "IPPROTO_TCP"]
+- !private ["Ps9_Hashable", "IPPROTO_UDP"]
+- !private ["Ps9_Hashable", "PF_INET"]
+- !private ["Ps9_Hashable", "PF_INET6"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "inet"]
+- ["Ps9_Hashable", "inet6"]
+- ["Ps9_Hashable", "tcp"]
+- ["Ps9_Hashable", "udp"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "P7SwiftIO15BinaryDecodable"
+- !private "P7SwiftIO21BinaryInputStreamable"
+- !private "P7SwiftIO22BinaryOutputStreamable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P14SwiftUtilities17EndianConvertable"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "O7SwiftIO12InetProtocol"
+- "Si"
+- "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Sq"
+- "O7SwiftIO14ProtocolFamily"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "b3595feeb2baa1a060fd1f7fefee8637"

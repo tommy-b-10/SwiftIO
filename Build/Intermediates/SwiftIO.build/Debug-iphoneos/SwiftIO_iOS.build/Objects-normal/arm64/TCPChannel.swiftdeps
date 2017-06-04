@@ -1,0 +1,963 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TCPChannel"
+- "=="
+provides-nominal:
+- "C7SwiftIO10TCPChannel"
+- "OC7SwiftIO10TCPChannel5Error"
+provides-member:
+- ["C7SwiftIO10TCPChannel", ""]
+- ["OC7SwiftIO10TCPChannel5Error", ""]
+- ["C7SwiftIO10TCPChannel", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Result"
+- "Bool"
+- !private "!="
+- !private "ObjectIdentifier"
+- !private "*"
+- !private ">"
+- !private "log"
+- "NSRecursiveLock"
+- "TimeInterval"
+- "CustomStringConvertible"
+- !private "NSEC_PER_SEC"
+- !private "Errno"
+- !private "Int32"
+- !private "Double"
+- !private "Int64"
+- !private "SOCK_STREAM"
+- "Connectable"
+- "DispatchData"
+- "TCPChannel"
+- !private "fatalError"
+- !private "precondition"
+- !private "DispatchTime"
+- "DispatchQoS"
+- "Address"
+- !private "ECONNRESET"
+- "UnicodeScalarType"
+- !private "BooleanLiteralType"
+- !private "IPPROTO_TCP"
+- "Swift"
+- "ObservableProperty"
+- !private "StringLiteralType"
+- "DispatchIO"
+- "=="
+- "Array"
+- "String"
+- "Int"
+- "Hashable"
+- "Void"
+- !private "+"
+- !private "assert"
+- "AssignmentPrecedence"
+- !private "Set"
+- "ConnectionState"
+- !private "tryElseFatalError"
+- !private "/"
+- "Socket"
+- !private "==="
+- "DispatchQueue"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["V7SwiftIO7Address", "deinit"]
+- !private ["V7SwiftIO7Address", "family"]
+- !private ["V7SwiftIO7Address", "port"]
+- ["Ps9AnyObject", "ConnectionState"]
+- ["Ps9AnyObject", "ConnectionStateType"]
+- !private ["Ps9AnyObject", "DispatchIO"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "DispatchTime"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "ECONNRESET"]
+- !private ["Ps9AnyObject", "Errno"]
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "IPPROTO_TCP"]
+- !private ["Ps9AnyObject", "Int64"]
+- !private ["Ps9AnyObject", "NSEC_PER_SEC"]
+- ["Ps9AnyObject", "NSRecursiveLock"]
+- !private ["Ps9AnyObject", "ObjectIdentifier"]
+- ["Ps9AnyObject", "ObservableProperty"]
+- !private ["Ps9AnyObject", "Result"]
+- !private ["Ps9AnyObject", "SOCK_STREAM"]
+- !private ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "Socket"]
+- !private ["Ps9AnyObject", "StreamType"]
+- ["Ps9AnyObject", "_toAnyHashable"]
+- !private ["Ps9AnyObject", "address"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "asyncAfter"]
+- !private ["Ps9AnyObject", "channel"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "configureSocket"]
+- ["Ps9AnyObject", "connect"]
+- !private ["Ps9AnyObject", "createStream"]
+- !private ["Ps9AnyObject", "debug"]
+- ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "descriptor"]
+- ["Ps9AnyObject", "disconnect"]
+- !private ["Ps9AnyObject", "disconnectCallback"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "handleDisconnect"]
+- ["Ps9AnyObject", "hashValue"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "label"]
+- !private ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "preconditionConnected"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "read"]
+- !private ["Ps9AnyObject", "readCallback"]
+- !private ["Ps9AnyObject", "reconnect"]
+- !private ["Ps9AnyObject", "reconnectionDelay"]
+- !private ["Ps9AnyObject", "setLimit"]
+- !private ["Ps9AnyObject", "shouldReconnect"]
+- !private ["Ps9AnyObject", "socket"]
+- ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "tryElseFatalError"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["P7SwiftIO15BinaryDecodable", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "init"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "IndexDistance"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "count"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "StreamType"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "asyncAfter"]
+- !private ["Ps7CVarArg", "close"]
+- !private ["Ps7CVarArg", "contains"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "read"]
+- !private ["Ps7CVarArg", "setLimit"]
+- !private ["Ps7CVarArg", "write"]
+- !private ["Vs9Character", "deinit"]
+- !private ["VE8DispatchCSo10DispatchIO10CloseFlags", "Element"]
+- !private ["VE8DispatchCSo10DispatchIO10CloseFlags", "deinit"]
+- !private ["VE8DispatchCSo10DispatchIO10CloseFlags", "stop"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "family"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "now"]
+- !private ["Ps10Comparable", "port"]
+- ["P7SwiftIO11Connectable", "ConnectionState"]
+- ["P7SwiftIO11Connectable", "ConnectionStateType"]
+- !private ["P7SwiftIO11Connectable", "DispatchIO"]
+- !private ["P7SwiftIO11Connectable", "DispatchQueue"]
+- !private ["P7SwiftIO11Connectable", "DispatchTime"]
+- !private ["P7SwiftIO11Connectable", "Double"]
+- !private ["P7SwiftIO11Connectable", "ECONNRESET"]
+- !private ["P7SwiftIO11Connectable", "Errno"]
+- !private ["P7SwiftIO11Connectable", "Error"]
+- !private ["P7SwiftIO11Connectable", "IPPROTO_TCP"]
+- !private ["P7SwiftIO11Connectable", "Int64"]
+- !private ["P7SwiftIO11Connectable", "NSEC_PER_SEC"]
+- ["P7SwiftIO11Connectable", "NSRecursiveLock"]
+- !private ["P7SwiftIO11Connectable", "ObjectIdentifier"]
+- ["P7SwiftIO11Connectable", "ObservableProperty"]
+- !private ["P7SwiftIO11Connectable", "Result"]
+- !private ["P7SwiftIO11Connectable", "SOCK_STREAM"]
+- !private ["P7SwiftIO11Connectable", "Set"]
+- !private ["P7SwiftIO11Connectable", "Socket"]
+- ["P7SwiftIO11Connectable", "_toAnyHashable"]
+- !private ["P7SwiftIO11Connectable", "address"]
+- !private ["P7SwiftIO11Connectable", "assert"]
+- !private ["P7SwiftIO11Connectable", "channel"]
+- !private ["P7SwiftIO11Connectable", "configureSocket"]
+- ["P7SwiftIO11Connectable", "connect"]
+- !private ["P7SwiftIO11Connectable", "createStream"]
+- ["P7SwiftIO11Connectable", "description"]
+- ["P7SwiftIO11Connectable", "disconnect"]
+- !private ["P7SwiftIO11Connectable", "disconnectCallback"]
+- !private ["P7SwiftIO11Connectable", "fatalError"]
+- !private ["P7SwiftIO11Connectable", "handleDisconnect"]
+- ["P7SwiftIO11Connectable", "hashValue"]
+- !private ["P7SwiftIO11Connectable", "init"]
+- !private ["P7SwiftIO11Connectable", "label"]
+- !private ["P7SwiftIO11Connectable", "log"]
+- !private ["P7SwiftIO11Connectable", "precondition"]
+- !private ["P7SwiftIO11Connectable", "preconditionConnected"]
+- !private ["P7SwiftIO11Connectable", "queue"]
+- !private ["P7SwiftIO11Connectable", "readCallback"]
+- !private ["P7SwiftIO11Connectable", "reconnect"]
+- !private ["P7SwiftIO11Connectable", "reconnectionDelay"]
+- !private ["P7SwiftIO11Connectable", "shouldReconnect"]
+- !private ["P7SwiftIO11Connectable", "socket"]
+- ["P7SwiftIO11Connectable", "state"]
+- !private ["P7SwiftIO11Connectable", "tryElseFatalError"]
+- ["P7SwiftIO11Connectable", ""]
+- !private ["O7SwiftIO15ConnectionState", "connected"]
+- !private ["O7SwiftIO15ConnectionState", "connecting"]
+- ["O7SwiftIO15ConnectionState", "deinit"]
+- ["O7SwiftIO15ConnectionState", "disconnected"]
+- !private ["O7SwiftIO15ConnectionState", "disconnecting"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "StreamType"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "asyncAfter"]
+- !private ["Ps28CustomDebugStringConvertible", "close"]
+- !private ["Ps28CustomDebugStringConvertible", "connected"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "disconnected"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "read"]
+- !private ["Ps28CustomDebugStringConvertible", "setLimit"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "connected"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "disconnected"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "ConnectionState"]
+- ["Ps23CustomStringConvertible", "ConnectionStateType"]
+- !private ["Ps23CustomStringConvertible", "DispatchIO"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "DispatchTime"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "ECONNRESET"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Errno"]
+- !private ["Ps23CustomStringConvertible", "Error"]
+- !private ["Ps23CustomStringConvertible", "IPPROTO_TCP"]
+- !private ["Ps23CustomStringConvertible", "Int64"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "NSEC_PER_SEC"]
+- ["Ps23CustomStringConvertible", "NSRecursiveLock"]
+- !private ["Ps23CustomStringConvertible", "ObjectIdentifier"]
+- ["Ps23CustomStringConvertible", "ObservableProperty"]
+- !private ["Ps23CustomStringConvertible", "Result"]
+- !private ["Ps23CustomStringConvertible", "SOCK_STREAM"]
+- !private ["Ps23CustomStringConvertible", "Set"]
+- !private ["Ps23CustomStringConvertible", "Socket"]
+- !private ["Ps23CustomStringConvertible", "StreamType"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_toAnyHashable"]
+- !private ["Ps23CustomStringConvertible", "address"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "asyncAfter"]
+- !private ["Ps23CustomStringConvertible", "channel"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "configureSocket"]
+- ["Ps23CustomStringConvertible", "connect"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "createStream"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "disconnect"]
+- !private ["Ps23CustomStringConvertible", "disconnectCallback"]
+- !private ["Ps23CustomStringConvertible", "family"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "handleDisconnect"]
+- ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "label"]
+- !private ["Ps23CustomStringConvertible", "log"]
+- !private ["Ps23CustomStringConvertible", "port"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "preconditionConnected"]
+- !private ["Ps23CustomStringConvertible", "queue"]
+- !private ["Ps23CustomStringConvertible", "read"]
+- !private ["Ps23CustomStringConvertible", "readCallback"]
+- !private ["Ps23CustomStringConvertible", "reconnect"]
+- !private ["Ps23CustomStringConvertible", "reconnectionDelay"]
+- !private ["Ps23CustomStringConvertible", "setLimit"]
+- !private ["Ps23CustomStringConvertible", "shouldReconnect"]
+- !private ["Ps23CustomStringConvertible", "socket"]
+- ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "tryElseFatalError"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V8Dispatch12DispatchData", "IndexDistance"]
+- !private ["V8Dispatch12DispatchData", "count"]
+- ["V8Dispatch12DispatchData", "deinit"]
+- !private ["CSo10DispatchIO", "StreamType"]
+- !private ["CSo10DispatchIO", "close"]
+- !private ["CSo10DispatchIO", "deinit"]
+- !private ["CSo10DispatchIO", "init"]
+- !private ["CSo10DispatchIO", "read"]
+- !private ["CSo10DispatchIO", "setLimit"]
+- !private ["CSo10DispatchIO", "write"]
+- !private ["CSo14DispatchObject", "StreamType"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "asyncAfter"]
+- !private ["CSo14DispatchObject", "close"]
+- !private ["CSo14DispatchObject", "init"]
+- !private ["CSo14DispatchObject", "read"]
+- !private ["CSo14DispatchObject", "setLimit"]
+- !private ["CSo14DispatchObject", "write"]
+- !private ["V8Dispatch11DispatchQoS", "default"]
+- ["V8Dispatch11DispatchQoS", "deinit"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "asyncAfter"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "init"]
+- !private ["V8Dispatch12DispatchTime", "deinit"]
+- !private ["V8Dispatch12DispatchTime", "now"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["P14SwiftUtilities17EndianConvertable", "init"]
+- ["Ps9Equatable", "ConnectionState"]
+- ["Ps9Equatable", "ConnectionStateType"]
+- !private ["Ps9Equatable", "DispatchIO"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "DispatchTime"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "ECONNRESET"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Errno"]
+- !private ["Ps9Equatable", "Error"]
+- !private ["Ps9Equatable", "IPPROTO_TCP"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "Int64"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "NSEC_PER_SEC"]
+- ["Ps9Equatable", "NSRecursiveLock"]
+- !private ["Ps9Equatable", "ObjectIdentifier"]
+- ["Ps9Equatable", "ObservableProperty"]
+- !private ["Ps9Equatable", "Result"]
+- !private ["Ps9Equatable", "SOCK_STREAM"]
+- !private ["Ps9Equatable", "Set"]
+- !private ["Ps9Equatable", "Socket"]
+- !private ["Ps9Equatable", "StreamType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "address"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "asyncAfter"]
+- !private ["Ps9Equatable", "channel"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "configureSocket"]
+- ["Ps9Equatable", "connect"]
+- !private ["Ps9Equatable", "connected"]
+- !private ["Ps9Equatable", "connecting"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "createStream"]
+- !private ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "disconnect"]
+- !private ["Ps9Equatable", "disconnectCallback"]
+- ["Ps9Equatable", "disconnected"]
+- !private ["Ps9Equatable", "disconnecting"]
+- !private ["Ps9Equatable", "family"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "handleDisconnect"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "label"]
+- !private ["Ps9Equatable", "log"]
+- !private ["Ps9Equatable", "now"]
+- !private ["Ps9Equatable", "port"]
+- !private ["Ps9Equatable", "precondition"]
+- !private ["Ps9Equatable", "preconditionConnected"]
+- !private ["Ps9Equatable", "queue"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "read"]
+- !private ["Ps9Equatable", "readCallback"]
+- !private ["Ps9Equatable", "reconnect"]
+- !private ["Ps9Equatable", "reconnectionDelay"]
+- !private ["Ps9Equatable", "setLimit"]
+- !private ["Ps9Equatable", "shouldReconnect"]
+- !private ["Ps9Equatable", "socket"]
+- ["Ps9Equatable", "state"]
+- !private ["Ps9Equatable", "stop"]
+- !private ["Ps9Equatable", "stream"]
+- !private ["Ps9Equatable", "tryElseFatalError"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["O14SwiftUtilities5Errno", "deinit"]
+- !private ["O14SwiftUtilities5Errno", "init"]
+- ["OC7SwiftIO10TCPChannel5Error", "String"]
+- ["OC7SwiftIO10TCPChannel5Error", "_code"]
+- ["OC7SwiftIO10TCPChannel5Error", "_domain"]
+- ["OC7SwiftIO10TCPChannel5Error", "_getEmbeddedNSError"]
+- ["OC7SwiftIO10TCPChannel5Error", "_userInfo"]
+- ["OC7SwiftIO10TCPChannel5Error", "deinit"]
+- ["OC7SwiftIO10TCPChannel5Error", "incorrectState"]
+- ["OC7SwiftIO10TCPChannel5Error", "unknown"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "incorrectState"]
+- !private ["Ps5Error", "init"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "stop"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "connected"]
+- !private ["Ps23ExpressibleByNilLiteral", "disconnected"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13FloatingPoint", "init"]
+- ["Ps8Hashable", "ConnectionState"]
+- ["Ps8Hashable", "ConnectionStateType"]
+- !private ["Ps8Hashable", "DispatchIO"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "DispatchTime"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "ECONNRESET"]
+- !private ["Ps8Hashable", "Element"]
+- !private ["Ps8Hashable", "Errno"]
+- !private ["Ps8Hashable", "Error"]
+- !private ["Ps8Hashable", "IPPROTO_TCP"]
+- !private ["Ps8Hashable", "Int64"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "NSEC_PER_SEC"]
+- ["Ps8Hashable", "NSRecursiveLock"]
+- !private ["Ps8Hashable", "ObjectIdentifier"]
+- ["Ps8Hashable", "ObservableProperty"]
+- !private ["Ps8Hashable", "Result"]
+- !private ["Ps8Hashable", "SOCK_STREAM"]
+- !private ["Ps8Hashable", "Set"]
+- !private ["Ps8Hashable", "Socket"]
+- !private ["Ps8Hashable", "StreamType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "address"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "asyncAfter"]
+- !private ["Ps8Hashable", "channel"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "configureSocket"]
+- ["Ps8Hashable", "connect"]
+- !private ["Ps8Hashable", "connected"]
+- !private ["Ps8Hashable", "connecting"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "createStream"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "disconnect"]
+- !private ["Ps8Hashable", "disconnectCallback"]
+- ["Ps8Hashable", "disconnected"]
+- !private ["Ps8Hashable", "disconnecting"]
+- !private ["Ps8Hashable", "family"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "handleDisconnect"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "label"]
+- !private ["Ps8Hashable", "log"]
+- !private ["Ps8Hashable", "port"]
+- !private ["Ps8Hashable", "precondition"]
+- !private ["Ps8Hashable", "preconditionConnected"]
+- !private ["Ps8Hashable", "queue"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "read"]
+- !private ["Ps8Hashable", "readCallback"]
+- !private ["Ps8Hashable", "reconnect"]
+- !private ["Ps8Hashable", "reconnectionDelay"]
+- !private ["Ps8Hashable", "setLimit"]
+- !private ["Ps8Hashable", "shouldReconnect"]
+- !private ["Ps8Hashable", "socket"]
+- ["Ps8Hashable", "state"]
+- !private ["Ps8Hashable", "stream"]
+- !private ["Ps8Hashable", "tryElseFatalError"]
+- !private ["Ps8Hashable", "write"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "contains"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "contains"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "init"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["P14SwiftUtilities7Locking", "init"]
+- !private ["C7SwiftIO6Logger", "debug"]
+- !private ["C7SwiftIO6Logger", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo9NSLocking", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "StreamType"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "asyncAfter"]
+- !private ["CSo8NSObject", "close"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "read"]
+- !private ["CSo8NSObject", "setLimit"]
+- !private ["CSo8NSObject", "write"]
+- !private ["PSo16NSObjectProtocol", "StreamType"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "asyncAfter"]
+- !private ["PSo16NSObjectProtocol", "close"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "read"]
+- !private ["PSo16NSObjectProtocol", "setLimit"]
+- !private ["PSo16NSObjectProtocol", "write"]
+- ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Os5Never", "deinit"]
+- !private ["CSo9OS_object", "StreamType"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "asyncAfter"]
+- !private ["CSo9OS_object", "close"]
+- !private ["CSo9OS_object", "init"]
+- !private ["CSo9OS_object", "read"]
+- !private ["CSo9OS_object", "setLimit"]
+- !private ["CSo9OS_object", "write"]
+- ["Vs16ObjectIdentifier", "deinit"]
+- !private ["Vs16ObjectIdentifier", "hashValue"]
+- !private ["Vs16ObjectIdentifier", "init"]
+- ["C14SwiftUtilities18ObservableProperty", "deinit"]
+- ["C14SwiftUtilities18ObservableProperty", "init"]
+- !private ["C14SwiftUtilities18ObservableProperty", "value"]
+- ["P14SwiftUtilities14ObservableType", "init"]
+- !private ["P14SwiftUtilities14ObservableType", "value"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "stop"]
+- !private ["Sq", "connected"]
+- ["Sq", "deinit"]
+- !private ["Sq", "disconnected"]
+- !private ["Sq", "init"]
+- !private ["O7SwiftIO14ProtocolFamily", "deinit"]
+- !private ["O7SwiftIO14ProtocolFamily", "rawValue"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "stop"]
+- !private ["Ps16RawRepresentable", "stream"]
+- !private ["O14SwiftUtilities6Result", "deinit"]
+- !private ["O14SwiftUtilities6Result", "failure"]
+- !private ["O14SwiftUtilities6Result", "success"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Vs3Set", "Element"]
+- !private ["Vs3Set", "Iterator"]
+- !private ["Vs3Set", "contains"]
+- !private ["Vs3Set", "deinit"]
+- !private ["Vs3Set", "init"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "stop"]
+- !private ["Vs11SetIterator", "Element"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["C7SwiftIO6Socket", "close"]
+- !private ["C7SwiftIO6Socket", "connect"]
+- ["C7SwiftIO6Socket", "deinit"]
+- !private ["C7SwiftIO6Socket", "descriptor"]
+- !private ["C7SwiftIO6Socket", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["OE8DispatchCSo10DispatchIO10StreamType", "deinit"]
+- !private ["OE8DispatchCSo10DispatchIO10StreamType", "stream"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["C7SwiftIO10TCPChannel", "Address"]
+- ["C7SwiftIO10TCPChannel", "Bool"]
+- ["C7SwiftIO10TCPChannel", "ConnectionState"]
+- ["C7SwiftIO10TCPChannel", "ConnectionStateType"]
+- ["C7SwiftIO10TCPChannel", "DispatchData"]
+- ["C7SwiftIO10TCPChannel", "DispatchIO"]
+- ["C7SwiftIO10TCPChannel", "DispatchQoS"]
+- ["C7SwiftIO10TCPChannel", "DispatchQueue"]
+- !private ["C7SwiftIO10TCPChannel", "DispatchTime"]
+- !private ["C7SwiftIO10TCPChannel", "Double"]
+- !private ["C7SwiftIO10TCPChannel", "ECONNRESET"]
+- !private ["C7SwiftIO10TCPChannel", "Errno"]
+- ["C7SwiftIO10TCPChannel", "Error"]
+- !private ["C7SwiftIO10TCPChannel", "IPPROTO_TCP"]
+- ["C7SwiftIO10TCPChannel", "Int"]
+- !private ["C7SwiftIO10TCPChannel", "Int32"]
+- !private ["C7SwiftIO10TCPChannel", "Int64"]
+- !private ["C7SwiftIO10TCPChannel", "NSEC_PER_SEC"]
+- ["C7SwiftIO10TCPChannel", "NSRecursiveLock"]
+- !private ["C7SwiftIO10TCPChannel", "ObjectIdentifier"]
+- ["C7SwiftIO10TCPChannel", "ObservableProperty"]
+- ["C7SwiftIO10TCPChannel", "Result"]
+- !private ["C7SwiftIO10TCPChannel", "SOCK_STREAM"]
+- !private ["C7SwiftIO10TCPChannel", "Set"]
+- ["C7SwiftIO10TCPChannel", "Socket"]
+- ["C7SwiftIO10TCPChannel", "String"]
+- ["C7SwiftIO10TCPChannel", "Swift"]
+- ["C7SwiftIO10TCPChannel", "TCPChannel"]
+- ["C7SwiftIO10TCPChannel", "TimeInterval"]
+- ["C7SwiftIO10TCPChannel", "Void"]
+- ["C7SwiftIO10TCPChannel", "_toAnyHashable"]
+- ["C7SwiftIO10TCPChannel", "address"]
+- !private ["C7SwiftIO10TCPChannel", "assert"]
+- !private ["C7SwiftIO10TCPChannel", "channel"]
+- ["C7SwiftIO10TCPChannel", "configureSocket"]
+- ["C7SwiftIO10TCPChannel", "connect"]
+- !private ["C7SwiftIO10TCPChannel", "createStream"]
+- ["C7SwiftIO10TCPChannel", "deinit"]
+- ["C7SwiftIO10TCPChannel", "description"]
+- ["C7SwiftIO10TCPChannel", "disconnect"]
+- !private ["C7SwiftIO10TCPChannel", "disconnectCallback"]
+- !private ["C7SwiftIO10TCPChannel", "fatalError"]
+- !private ["C7SwiftIO10TCPChannel", "handleDisconnect"]
+- ["C7SwiftIO10TCPChannel", "hashValue"]
+- ["C7SwiftIO10TCPChannel", "init"]
+- ["C7SwiftIO10TCPChannel", "label"]
+- !private ["C7SwiftIO10TCPChannel", "lock"]
+- !private ["C7SwiftIO10TCPChannel", "log"]
+- !private ["C7SwiftIO10TCPChannel", "precondition"]
+- !private ["C7SwiftIO10TCPChannel", "preconditionConnected"]
+- !private ["C7SwiftIO10TCPChannel", "queue"]
+- ["C7SwiftIO10TCPChannel", "readCallback"]
+- !private ["C7SwiftIO10TCPChannel", "reconnect"]
+- ["C7SwiftIO10TCPChannel", "reconnectionDelay"]
+- ["C7SwiftIO10TCPChannel", "shouldReconnect"]
+- ["C7SwiftIO10TCPChannel", "socket"]
+- ["C7SwiftIO10TCPChannel", "state"]
+- !private ["C7SwiftIO10TCPChannel", "tryElseFatalError"]
+- ["C7SwiftIO10TCPChannel", "write"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "ConnectionState"]
+- ["Ps9_Hashable", "ConnectionStateType"]
+- !private ["Ps9_Hashable", "DispatchIO"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "DispatchTime"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "ECONNRESET"]
+- !private ["Ps9_Hashable", "Element"]
+- !private ["Ps9_Hashable", "Errno"]
+- !private ["Ps9_Hashable", "Error"]
+- !private ["Ps9_Hashable", "IPPROTO_TCP"]
+- !private ["Ps9_Hashable", "Int64"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "NSEC_PER_SEC"]
+- ["Ps9_Hashable", "NSRecursiveLock"]
+- !private ["Ps9_Hashable", "ObjectIdentifier"]
+- ["Ps9_Hashable", "ObservableProperty"]
+- !private ["Ps9_Hashable", "Result"]
+- !private ["Ps9_Hashable", "SOCK_STREAM"]
+- !private ["Ps9_Hashable", "Set"]
+- !private ["Ps9_Hashable", "Socket"]
+- !private ["Ps9_Hashable", "StreamType"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "address"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "asyncAfter"]
+- !private ["Ps9_Hashable", "channel"]
+- !private ["Ps9_Hashable", "close"]
+- !private ["Ps9_Hashable", "configureSocket"]
+- ["Ps9_Hashable", "connect"]
+- !private ["Ps9_Hashable", "connected"]
+- !private ["Ps9_Hashable", "connecting"]
+- !private ["Ps9_Hashable", "contains"]
+- !private ["Ps9_Hashable", "createStream"]
+- ["Ps9_Hashable", "description"]
+- ["Ps9_Hashable", "disconnect"]
+- !private ["Ps9_Hashable", "disconnectCallback"]
+- ["Ps9_Hashable", "disconnected"]
+- !private ["Ps9_Hashable", "disconnecting"]
+- !private ["Ps9_Hashable", "family"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "handleDisconnect"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "label"]
+- !private ["Ps9_Hashable", "log"]
+- !private ["Ps9_Hashable", "port"]
+- !private ["Ps9_Hashable", "precondition"]
+- !private ["Ps9_Hashable", "preconditionConnected"]
+- !private ["Ps9_Hashable", "queue"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "read"]
+- !private ["Ps9_Hashable", "readCallback"]
+- !private ["Ps9_Hashable", "reconnect"]
+- !private ["Ps9_Hashable", "reconnectionDelay"]
+- !private ["Ps9_Hashable", "setLimit"]
+- !private ["Ps9_Hashable", "shouldReconnect"]
+- !private ["Ps9_Hashable", "socket"]
+- ["Ps9_Hashable", "state"]
+- !private ["Ps9_Hashable", "stream"]
+- !private ["Ps9_Hashable", "tryElseFatalError"]
+- !private ["Ps9_Hashable", "write"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "connected"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "disconnected"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "connected"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Vs26_OptionalNilComparisonType", "disconnected"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "V7SwiftIO7Address"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P7SwiftIO15BinaryDecodable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "P7SwiftIO21BinaryInputStreamable"
+- !private "P7SwiftIO22BinaryOutputStreamable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "VE8DispatchCSo10DispatchIO10CloseFlags"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "P7SwiftIO11Connectable"
+- "O7SwiftIO15ConnectionState"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V8Dispatch12DispatchData"
+- !private "CSo10DispatchIO"
+- !private "CSo14DispatchObject"
+- "V8Dispatch11DispatchQoS"
+- "CSo13DispatchQueue"
+- !private "V8Dispatch12DispatchTime"
+- "Sd"
+- !private "P14SwiftUtilities17EndianConvertable"
+- "Ps9Equatable"
+- !private "O14SwiftUtilities5Errno"
+- "OC7SwiftIO10TCPChannel5Error"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "P14SwiftUtilities7Locking"
+- !private "C7SwiftIO6Logger"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo9NSLocking"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Os5Never"
+- !private "CSo9OS_object"
+- "Vs16ObjectIdentifier"
+- "C14SwiftUtilities18ObservableProperty"
+- "P14SwiftUtilities14ObservableType"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "O7SwiftIO14ProtocolFamily"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "O14SwiftUtilities6Result"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C7SwiftIO6Socket"
+- "Vs12StaticString"
+- !private "OE8DispatchCSo10DispatchIO10StreamType"
+- !private "Ps10Strideable"
+- "SS"
+- "C7SwiftIO10TCPChannel"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "2fdc704985be677a08816cb4d920e6b4"

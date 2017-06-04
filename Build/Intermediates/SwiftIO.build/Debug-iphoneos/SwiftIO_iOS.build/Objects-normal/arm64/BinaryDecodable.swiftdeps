@@ -1,0 +1,577 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BinaryDecodable"
+provides-nominal:
+- "P7SwiftIO15BinaryDecodable"
+- "Si"
+- "Vs4Int8"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Su"
+- "Vs5UInt8"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Sf"
+- "Sd"
+provides-member:
+- ["P7SwiftIO15BinaryDecodable", ""]
+- ["Si", ""]
+- ["Vs4Int8", ""]
+- ["Vs5Int16", ""]
+- ["Vs5Int32", ""]
+- ["Vs5Int64", ""]
+- ["Su", ""]
+- ["Vs5UInt8", ""]
+- ["Vs6UInt16", ""]
+- ["Vs6UInt32", ""]
+- ["Vs6UInt64", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UInt32"
+- "UInt"
+- !private "SwiftIO"
+- !private "MemoryLayout"
+- "Int64"
+- "Int"
+- !private "Error"
+- !private "UnicodeScalarType"
+- !private "decode"
+- "Int16"
+- "BinaryDecodable"
+- !private "StringLiteralType"
+- "UnsafeBufferPointer"
+- !private "unsafeBitCast"
+- "UInt8"
+- "Float"
+- "Endianness"
+- "UInt64"
+- !private ">="
+- "Int32"
+- "Int8"
+- "Double"
+- "UInt16"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Double"]
+- !private ["Ps16AbsoluteValuable", "Float"]
+- !private ["Ps16AbsoluteValuable", "SwiftIO"]
+- ["Ps16AbsoluteValuable", "decode"]
+- !private ["Ps16AbsoluteValuable", "unsafeBitCast"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["P14SwiftUtilities13BaseDecodable", "SwiftIO"]
+- ["P14SwiftUtilities13BaseDecodable", "decode"]
+- !private ["P14SwiftUtilities13BaseDecodable", "fromEndianness"]
+- !private ["P14SwiftUtilities13BaseEncodable", "IndexDistance"]
+- !private ["P14SwiftUtilities13BaseEncodable", "SwiftIO"]
+- !private ["P14SwiftUtilities13BaseEncodable", "baseAddress"]
+- !private ["P14SwiftUtilities13BaseEncodable", "count"]
+- ["P14SwiftUtilities13BaseEncodable", "decode"]
+- !private ["P14SwiftUtilities13BaseEncodable", "fromEndianness"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "baseAddress"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["P7SwiftIO15BinaryDecodable", "Double"]
+- ["P7SwiftIO15BinaryDecodable", "Endianness"]
+- !private ["P7SwiftIO15BinaryDecodable", "Float"]
+- !private ["P7SwiftIO15BinaryDecodable", "SwiftIO"]
+- ["P7SwiftIO15BinaryDecodable", "UInt8"]
+- ["P7SwiftIO15BinaryDecodable", "UnsafeBufferPointer"]
+- ["P7SwiftIO15BinaryDecodable", "decode"]
+- !private ["P7SwiftIO15BinaryDecodable", "fromEndianness"]
+- !private ["P7SwiftIO15BinaryDecodable", "unsafeBitCast"]
+- ["P7SwiftIO15BinaryDecodable", ""]
+- !private ["Ps19BinaryFloatingPoint", "Double"]
+- !private ["Ps19BinaryFloatingPoint", "Float"]
+- !private ["Ps19BinaryFloatingPoint", "SwiftIO"]
+- ["Ps19BinaryFloatingPoint", "decode"]
+- !private ["Ps19BinaryFloatingPoint", "unsafeBitCast"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "Double"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "Float"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "SwiftIO"]
+- ["P7SwiftIO21BinaryInputStreamable", "decode"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "fromEndianness"]
+- !private ["P7SwiftIO21BinaryInputStreamable", "unsafeBitCast"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "Double"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "Float"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "SwiftIO"]
+- ["P7SwiftIO22BinaryOutputStreamable", "decode"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "fromEndianness"]
+- !private ["P7SwiftIO22BinaryOutputStreamable", "unsafeBitCast"]
+- !private ["Ps17BitwiseOperations", "SwiftIO"]
+- ["Ps17BitwiseOperations", "decode"]
+- !private ["Ps17BitwiseOperations", "fromEndianness"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Float"]
+- !private ["Ps7CVarArg", "SwiftIO"]
+- ["Ps7CVarArg", "decode"]
+- !private ["Ps7CVarArg", "fromEndianness"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps7CVarArg", "unsafeBitCast"]
+- !private ["Ps7CVarArg", "withMemoryRebound"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "Double"]
+- !private ["Ps10Comparable", "Float"]
+- !private ["Ps10Comparable", "SwiftIO"]
+- ["Ps10Comparable", "decode"]
+- !private ["Ps10Comparable", "fromEndianness"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "unsafeBitCast"]
+- !private ["Ps10Comparable", "withMemoryRebound"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Float"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "SwiftIO"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "decode"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "unsafeBitCast"]
+- !private ["Ps28CustomDebugStringConvertible", "withMemoryRebound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Float"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "SwiftIO"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "decode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "fromEndianness"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "unsafeBitCast"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "withMemoryRebound"]
+- !private ["Ps17CustomReflectable", "Double"]
+- !private ["Ps17CustomReflectable", "Float"]
+- !private ["Ps17CustomReflectable", "SwiftIO"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "decode"]
+- !private ["Ps17CustomReflectable", "fromEndianness"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "unsafeBitCast"]
+- !private ["Ps17CustomReflectable", "withMemoryRebound"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "SwiftIO"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "decode"]
+- !private ["Ps23CustomStringConvertible", "fromEndianness"]
+- !private ["Ps23CustomStringConvertible", "generic"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "unsafeBitCast"]
+- ["Sd", "Double"]
+- ["Sd", "Endianness"]
+- !private ["Sd", "SwiftIO"]
+- !private ["Sd", "UInt64"]
+- ["Sd", "UInt8"]
+- ["Sd", "UnsafeBufferPointer"]
+- ["Sd", "decode"]
+- ["Sd", "deinit"]
+- !private ["Sd", "unsafeBitCast"]
+- !private ["P14SwiftUtilities17EndianConvertable", "SwiftIO"]
+- ["P14SwiftUtilities17EndianConvertable", "decode"]
+- !private ["P14SwiftUtilities17EndianConvertable", "fromEndianness"]
+- ["O14SwiftUtilities10Endianness", "deinit"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "SwiftIO"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "decode"]
+- !private ["Ps9Equatable", "fromEndianness"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "unsafeBitCast"]
+- !private ["Ps9Equatable", "withMemoryRebound"]
+- !private ["O14SwiftUtilities5Error", "deinit"]
+- !private ["O14SwiftUtilities5Error", "generic"]
+- !private ["Ps5Error", "generic"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Double"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Float"]
+- !private ["Ps25ExpressibleByFloatLiteral", "SwiftIO"]
+- ["Ps25ExpressibleByFloatLiteral", "decode"]
+- !private ["Ps25ExpressibleByFloatLiteral", "unsafeBitCast"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Float"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "SwiftIO"]
+- ["Ps27ExpressibleByIntegerLiteral", "decode"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "fromEndianness"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "unsafeBitCast"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "Endianness"]
+- ["Sf", "Float"]
+- !private ["Sf", "SwiftIO"]
+- !private ["Sf", "UInt32"]
+- ["Sf", "UInt8"]
+- ["Sf", "UnsafeBufferPointer"]
+- ["Sf", "decode"]
+- ["Sf", "deinit"]
+- !private ["Sf", "unsafeBitCast"]
+- !private ["Ps13FloatingPoint", "Double"]
+- !private ["Ps13FloatingPoint", "Float"]
+- !private ["Ps13FloatingPoint", "SwiftIO"]
+- ["Ps13FloatingPoint", "decode"]
+- !private ["Ps13FloatingPoint", "unsafeBitCast"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "SwiftIO"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "decode"]
+- !private ["Ps8Hashable", "fromEndianness"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "unsafeBitCast"]
+- !private ["Ps8Hashable", "withMemoryRebound"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "baseAddress"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "baseAddress"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Si", "Endianness"]
+- ["Si", "Int"]
+- !private ["Si", "SwiftIO"]
+- ["Si", "UInt8"]
+- ["Si", "UnsafeBufferPointer"]
+- ["Si", "decode"]
+- ["Si", "deinit"]
+- !private ["Si", "fromEndianness"]
+- ["Vs5Int16", "Endianness"]
+- ["Vs5Int16", "Int16"]
+- !private ["Vs5Int16", "SwiftIO"]
+- ["Vs5Int16", "UInt8"]
+- ["Vs5Int16", "UnsafeBufferPointer"]
+- ["Vs5Int16", "decode"]
+- ["Vs5Int16", "deinit"]
+- !private ["Vs5Int16", "fromEndianness"]
+- ["Vs5Int32", "Endianness"]
+- ["Vs5Int32", "Int32"]
+- !private ["Vs5Int32", "SwiftIO"]
+- ["Vs5Int32", "UInt8"]
+- ["Vs5Int32", "UnsafeBufferPointer"]
+- ["Vs5Int32", "decode"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "fromEndianness"]
+- ["Vs5Int64", "Endianness"]
+- ["Vs5Int64", "Int64"]
+- !private ["Vs5Int64", "SwiftIO"]
+- ["Vs5Int64", "UInt8"]
+- ["Vs5Int64", "UnsafeBufferPointer"]
+- ["Vs5Int64", "decode"]
+- ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "fromEndianness"]
+- ["Vs4Int8", "Endianness"]
+- ["Vs4Int8", "Int8"]
+- !private ["Vs4Int8", "SwiftIO"]
+- ["Vs4Int8", "UInt8"]
+- ["Vs4Int8", "UnsafeBufferPointer"]
+- ["Vs4Int8", "decode"]
+- ["Vs4Int8", "deinit"]
+- !private ["Vs4Int8", "fromEndianness"]
+- !private ["Ps7Integer", "SwiftIO"]
+- ["Ps7Integer", "decode"]
+- !private ["Ps7Integer", "fromEndianness"]
+- !private ["Ps17IntegerArithmetic", "SwiftIO"]
+- ["Ps17IntegerArithmetic", "decode"]
+- !private ["Ps17IntegerArithmetic", "fromEndianness"]
+- !private ["Ps25LosslessStringConvertible", "Double"]
+- !private ["Ps25LosslessStringConvertible", "Float"]
+- !private ["Ps25LosslessStringConvertible", "SwiftIO"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "decode"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "unsafeBitCast"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps10MirrorPath", "SwiftIO"]
+- ["Ps10MirrorPath", "decode"]
+- !private ["Ps10MirrorPath", "fromEndianness"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "baseAddress"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps13SignedInteger", "SwiftIO"]
+- ["Ps13SignedInteger", "decode"]
+- !private ["Ps13SignedInteger", "fromEndianness"]
+- !private ["Ps12SignedNumber", "Double"]
+- !private ["Ps12SignedNumber", "Float"]
+- !private ["Ps12SignedNumber", "SwiftIO"]
+- ["Ps12SignedNumber", "decode"]
+- !private ["Ps12SignedNumber", "fromEndianness"]
+- !private ["Ps12SignedNumber", "unsafeBitCast"]
+- !private ["Ps10Strideable", "Double"]
+- !private ["Ps10Strideable", "Float"]
+- !private ["Ps10Strideable", "SwiftIO"]
+- ["Ps10Strideable", "decode"]
+- !private ["Ps10Strideable", "fromEndianness"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["Ps10Strideable", "unsafeBitCast"]
+- !private ["Ps10Strideable", "withMemoryRebound"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "Endianness"]
+- !private ["Su", "SwiftIO"]
+- ["Su", "UInt"]
+- ["Su", "UInt8"]
+- ["Su", "UnsafeBufferPointer"]
+- ["Su", "decode"]
+- ["Su", "deinit"]
+- !private ["Su", "fromEndianness"]
+- ["Vs6UInt16", "Endianness"]
+- !private ["Vs6UInt16", "SwiftIO"]
+- ["Vs6UInt16", "UInt16"]
+- ["Vs6UInt16", "UInt8"]
+- ["Vs6UInt16", "UnsafeBufferPointer"]
+- ["Vs6UInt16", "decode"]
+- ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt16", "fromEndianness"]
+- ["Vs6UInt32", "Endianness"]
+- !private ["Vs6UInt32", "SwiftIO"]
+- ["Vs6UInt32", "UInt32"]
+- ["Vs6UInt32", "UInt8"]
+- ["Vs6UInt32", "UnsafeBufferPointer"]
+- ["Vs6UInt32", "decode"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "fromEndianness"]
+- ["Vs6UInt64", "Endianness"]
+- !private ["Vs6UInt64", "SwiftIO"]
+- ["Vs6UInt64", "UInt64"]
+- ["Vs6UInt64", "UInt8"]
+- ["Vs6UInt64", "UnsafeBufferPointer"]
+- ["Vs6UInt64", "decode"]
+- ["Vs6UInt64", "deinit"]
+- !private ["Vs6UInt64", "fromEndianness"]
+- ["Vs5UInt8", "Endianness"]
+- !private ["Vs5UInt8", "SwiftIO"]
+- ["Vs5UInt8", "UInt8"]
+- ["Vs5UInt8", "UnsafeBufferPointer"]
+- ["Vs5UInt8", "decode"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Vs5UInt8", "fromEndianness"]
+- !private ["Sc", "deinit"]
+- !private ["SR", "IndexDistance"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- ["SR", "deinit"]
+- !private ["SP", "deinit"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["Ps15UnsignedInteger", "SwiftIO"]
+- ["Ps15UnsignedInteger", "decode"]
+- !private ["Ps15UnsignedInteger", "fromEndianness"]
+- !private ["Ps15_CVarArgAligned", "Double"]
+- !private ["Ps15_CVarArgAligned", "Float"]
+- !private ["Ps15_CVarArgAligned", "SwiftIO"]
+- ["Ps15_CVarArgAligned", "decode"]
+- !private ["Ps15_CVarArgAligned", "fromEndianness"]
+- !private ["Ps15_CVarArgAligned", "unsafeBitCast"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Double"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Float"]
+- !private ["Ps22_CVarArgPassedAsDouble", "SwiftIO"]
+- ["Ps22_CVarArgPassedAsDouble", "decode"]
+- !private ["Ps22_CVarArgPassedAsDouble", "unsafeBitCast"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "SwiftIO"]
+- ["Ps28_DisallowMixedSignArithmetic", "decode"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "fromEndianness"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Double"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Float"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "SwiftIO"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "decode"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "unsafeBitCast"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Double"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Float"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "SwiftIO"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "decode"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "fromEndianness"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "unsafeBitCast"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Float"]
+- !private ["Ps9_Hashable", "SwiftIO"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "decode"]
+- !private ["Ps9_Hashable", "fromEndianness"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "unsafeBitCast"]
+- !private ["Ps9_Hashable", "withMemoryRebound"]
+- !private ["Ps14_Incrementable", "SwiftIO"]
+- ["Ps14_Incrementable", "decode"]
+- !private ["Ps14_Incrementable", "fromEndianness"]
+- !private ["Ps8_Integer", "SwiftIO"]
+- ["Ps8_Integer", "decode"]
+- !private ["Ps8_Integer", "fromEndianness"]
+- !private ["Ps18_IntegerArithmetic", "SwiftIO"]
+- ["Ps18_IntegerArithmetic", "decode"]
+- !private ["Ps18_IntegerArithmetic", "fromEndianness"]
+- !private ["Ps21_ObjectiveCBridgeable", "Double"]
+- !private ["Ps21_ObjectiveCBridgeable", "Float"]
+- !private ["Ps21_ObjectiveCBridgeable", "SwiftIO"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "decode"]
+- !private ["Ps21_ObjectiveCBridgeable", "fromEndianness"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "unsafeBitCast"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps8_Pointer", "withMemoryRebound"]
+- !private ["Ps14_SignedInteger", "SwiftIO"]
+- ["Ps14_SignedInteger", "decode"]
+- !private ["Ps14_SignedInteger", "fromEndianness"]
+- !private ["Ps11_Strideable", "Double"]
+- !private ["Ps11_Strideable", "Float"]
+- !private ["Ps11_Strideable", "SwiftIO"]
+- ["Ps11_Strideable", "decode"]
+- !private ["Ps11_Strideable", "fromEndianness"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["Ps11_Strideable", "unsafeBitCast"]
+- !private ["Ps11_Strideable", "withMemoryRebound"]
+- !private ["Ps14_StringElement", "SwiftIO"]
+- ["Ps14_StringElement", "decode"]
+- !private ["Ps14_StringElement", "fromEndianness"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- "P14SwiftUtilities13BaseDecodable"
+- "P14SwiftUtilities13BaseEncodable"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "P7SwiftIO15BinaryDecodable"
+- "Ps19BinaryFloatingPoint"
+- "P7SwiftIO21BinaryInputStreamable"
+- "P7SwiftIO22BinaryOutputStreamable"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "P14SwiftUtilities17EndianConvertable"
+- "O14SwiftUtilities10Endianness"
+- "Ps9Equatable"
+- !private "O14SwiftUtilities5Error"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps8Sequence"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- !private "Sc"
+- "SR"
+- !private "SP"
+- "Ps15UnsignedInteger"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Modules/module.map"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIOSupport.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Sources/SwiftIO.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Build/Intermediates/SwiftIO.build/Debug-iphoneos/SwiftIO_iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/SwiftUtilities.swiftmodule/arm64.swiftmodule"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities-Swift.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Headers/SwiftUtilities.h"
+- "/users/tommy-b-10/Desktop/SidePilotApp/Carthage/Checkouts/SwiftIO/Carthage/Build/iOS/SwiftUtilities.framework/Modules/module.modulemap"
+interface-hash: "798f3374eea3b83e4395b3bcfc0f1b8d"
